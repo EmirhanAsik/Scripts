@@ -1,4 +1,4 @@
-if game.PlaceId == 4692717363 then
+if game.PlaceId == 4909683031 then
   if (assert(syn, "Only Synapse X")) then
 local UI = Instance.new("ScreenGui")
 local OpenCloseButton = Instance.new("TextButton")
