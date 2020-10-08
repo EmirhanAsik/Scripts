@@ -1,17 +1,11 @@
 if (assert(syn, "Only Synapse X")) then
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local UI = Instance.new("ScreenGui")
 local Pinger = Instance.new("Frame")
 local Lagger = Instance.new("TextButton")
 
---Properties:
-
 UI.Name = "UI"
-UI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UI.Parent = game.CoreGui
 
 Pinger.Name = "Pinger"
 Pinger.Parent = UI
