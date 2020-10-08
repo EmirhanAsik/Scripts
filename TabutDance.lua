@@ -9218,7 +9218,7 @@ local function UURGAWM_fake_script() -- CHATSPAM.Script
 	local script = Instance.new('Script', CHATSPAM)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		while wait() do
+		while wait(1) do
 			local args = {
 				[1] = "########################################################################################################################################################################################################",
 				[2] = "All",
