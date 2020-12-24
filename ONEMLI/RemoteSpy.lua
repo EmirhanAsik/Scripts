@@ -190,6 +190,14 @@ gameMeta.__index, gameMeta.__namecall = function(self, key)
 		local allPassed = {...}
 		local returnValues = {realMethods[key](self, ...)}
 
+        --[[
+        strId -- Log ID
+        self.ClassName -- Class Name
+        self:GetFullName() -- Path
+        key -- Call Method
+        tableToString(allPassed) -- Arguments
+        tableToString(returnValues) -- Packed Returned
+        ]]
 		print("\n" .. strId .. " ClassName: " .. self.ClassName .. " | Path: " .. self:GetFullName() .. " | Method: " .. key .. "\n" .. strId .. " Packed Arguments: " .. tableToString(allPassed) .. "\n" .. strId .. " Packed Returned: " .. tableToString(returnValues) .. "\n")
 		--copystr(tableToString(allPassed))
 		return unpack(returnValues)
