@@ -800,6 +800,7 @@ Serializer = (function()
 	
 	This file was generated with the following settings:
 	
+	--Bizi seçtiğiniz için teşekkür ederiz.--
 ]==]
 
 	local function getSaveProps(obj,class)
