@@ -7,22 +7,7 @@ local service = setmetatable({},{__index = function(self,name)
 	return serv
 end})
 
-DefaultSettings = {
-	Serializer = {
-		_Recurse = true,
-		Decompile = true,
-		NilInstances = false,
-		RemovePlayerCharacters = true,
-		SavePlayers = false,
-		DecompileTimeout = 10,
-		MaxThreads = 3,
-		DecompileIgnore = {"Chat","CoreGui","CorePackages"},
-		ShowStatus = true,
-		IgnoreDefaultProps = true,
-		IsolateStarterPlayer = true,
-		Binary = true
-	}
-}
+
 
 Serializer = (function()
 	local Serializer = {}
