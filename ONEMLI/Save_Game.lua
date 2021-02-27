@@ -10,7 +10,7 @@ end})
 DefaultSettings = {
 	Serializer = {
 		_Recurse = true,
-		Decompile = DecompSettings.DecompileScripts,
+		Decompile = false,
 		NilInstances = DecompSettings.NilInstances,
 		RemovePlayerCharacters = DecompSettings.RemovePlayerCharacters,
 		SavePlayers = DecompSettings.SavePlayers,
