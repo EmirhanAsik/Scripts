@@ -17,7 +17,7 @@ warn("Loading script...")
 
 if fovCircle then
 	function createcircle()
-	    local a=Drawing.new('Circle');a.Transparency=1;a.Thickness=1.5;a.Visible=true;a.Color=Color3.fromRGB(0,255,149);a.Filled=false;a.Radius=fov;
+	    local a=Drawing.new('Circle');a.Transparency=1;a.Thickness=1.5;a.Visible=false;a.Color=Color3.fromRGB(0,255,149);a.Filled=false;a.Radius=fov;
 	    return a;
 	end;  
 	local fovc = createcircle();
